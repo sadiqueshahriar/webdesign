@@ -1,0 +1,43 @@
+.contaner-fluid{
+    background: #202095;
+    color: white;
+    text-align: center;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://freepik.cdnpk.net/img/campaign/xs.png?v=10);
+    background-repeat: no-repeat ;
+    background-position: right;
+    background-size: contain;
+}
+.button1{
+    background: #F69110 !important;
+    border: 1px solid #F69110!important;
+    box-shadow: 1px 0px 1px #F69110;
+    font-weight: 600!important;
+}
+.content h2{
+    color: #92CDFA;
+}
+.main {
+    color: black;
+    text-align: center;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Group-3-3-1.0d2f0944.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content1 h2{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.button2{
+    background: #8D39FA !important;
+    border: 1px solid #8D39FA !important;
+
+}

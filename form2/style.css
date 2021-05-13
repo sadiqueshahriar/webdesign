@@ -1,0 +1,44 @@
+.mainbox{
+    display: flex;
+}
+.list_icon {
+    background-color: tomato;
+    padding: 20px;
+    width: 50%;
+    height: 350px;
+    text-align: left;
+}
+
+.list_icon ul {
+    list-style-type: none;
+}
+
+.list_icon li {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+
+.list_icon li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 5px;
+    color: #2BC48A;
+}
+.form_box{
+    height: 400px;
+    width: 400px;
+    background: #ECF0FE;
+    color: black;
+}
+
+
+
+
+
+
+
+
+

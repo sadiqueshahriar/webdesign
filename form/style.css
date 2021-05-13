@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right, rgb(12, 78, 184), rgb(19, 206, 196));
+}
+.iconbox{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+.iconbox h2{
+    font-weight: 700;
+}
+.button1{
+    border: 2px solid transparent!important;
+    border-radius: 10px!important;
+    height: 40px!important;
+    width: 150px!important;
+    background-color: white!important;
+    color: black!important;
+    padding: 5px 0!important;
+    font-size: 16px!important;
+}
+.maintab{
+    display: flex;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+      border-top-left-radius: 100px 50%;
+      border-bottom-left-radius: 100px 50%;
+
+}
+.tab_style{    
+    width: 270px;
+    margin-left: 40rem;
+   
+    
+}
+.content1{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-link{
+    background-color:blue;
+}
+ 

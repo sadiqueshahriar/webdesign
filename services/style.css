@@ -1,0 +1,37 @@
+body{
+    background-color: #34495E;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: #191D30;
+    margin-bottom: 20px;
+    color: #1ABC9C;
+    transition: 3s;
+}
+.icon1{
+    color: #1ABC9C;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+.box p {
+    font-size: 20px; 
+}
+
+
+.box:hover .icon1{
+    color: white;
+}
+.box:hover .boxz{
+        height: 250px;
+        width: 250px;
+        color: white;
+        background-color: #1ABC9C;
+        transform: skew(-30deg);
+        box-shadow: 3px 3px 3px #1ABC9C;
+}
+.box:hover{
+    box-shadow: 3px 3px 3px #1ABC9C;
+}
+    

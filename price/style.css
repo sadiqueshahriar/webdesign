@@ -1,0 +1,54 @@
+.mainbox{
+    box-sizing: border-box;
+    height: 350px;
+    width: 70%;
+    background:rgb(228, 204, 204);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    border: 2px solid white;
+    box-shadow: 1px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.mainbox span{
+    font-size: 40px;
+}
+.list_icon{
+    visibility: hidden;
+    background-color: tomato;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 120%;
+    bottom: 1%;
+    width: 125%;
+    height: 350px;
+    text-align: left;
+    border: 1px;
+    border-radius: 5px;
+    
+   
+
+}
+.list_icon ul{
+   list-style-type: none;
+}
+.list_icon li{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+.list_icon li::before{
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 5px;
+    color: #2BC48A;
+
+}
+.mainbox:hover .list_icon{
+    visibility: visible;
+}

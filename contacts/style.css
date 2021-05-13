@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+.bgmain{
+    background-color: #1dc68c;
+    height: 30vh;
+    font-family: sans-serif;
+}
+.text1{
+    color:white;
+}
+
+ .btn-primary,
+ .btn-primary:active{
+     background-color: #1dc68c !important;
+ }
+.button1{
+    border-radius: 50%;
+    
+}
+.subbox {
+    background-color: #1dc68c;
+    height: 50vh;
+    font-family: sans-serif;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    padding: 1rem 1rem;
+}
+ .btn-secondary,
+ .btn-primary:active {
+     background-color: white !important;
+     color: black !important;
+     height: 75% !important;
+     margin-top: 1% !important;
+ }
+.button1{
+    height: 75% !important;
+    margin-top: 1% !important;
+    background-color: #1dc68c !important;
+
+}

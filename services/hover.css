@@ -1,0 +1,30 @@
+.position_box{
+    position: relative;
+}
+#div1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+    box-shadow: 2px 2px 3px rgb(122, 122, 134);
+    position: absolute;
+    z-index: 1;
+    
+
+}
+
+.position_box:hover #div2{
+    visibility: visible;
+
+}
+
+#div2 {
+    visibility: hidden;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: absolute;
+ 
+    z-index: 1;
+    
+}

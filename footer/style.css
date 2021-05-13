@@ -1,0 +1,46 @@
+
+.footer_section{
+    background-color: #222222;
+     color: white;
+     padding-top: 20px;
+}
+span{
+    border: 1px solid white;
+    width: 35px;
+    height: 40px;
+    font-size: 14px;
+    margin:5px;
+    text-align: center;
+    display: inline-block;
+}
+.button1{
+    background-color:#0042A7;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.icon1{
+    
+    color: #385790;
+    
+}
+.icon2 {
+
+    color: #5AA5E9;
+
+}
+.icon3 {
+
+    color: #DC493F;
+
+}
+.icon4 {
+
+    color: #64339C;
+
+}
+
+

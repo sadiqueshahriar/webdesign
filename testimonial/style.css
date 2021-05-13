@@ -1,0 +1,70 @@
+body {
+    background: white;
+}
+.header{
+    text-align: center;
+    color: hsl(36, 96%, 48%);
+    margin-top: 15px;
+    font-weight: 700;
+    border-bottom: 3px solid;
+    
+}
+
+.container {
+    margin-top: 100px
+}
+.team1{
+    background-color: #EFEFEF;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.image{
+    position: absolute;
+    top: -20%;
+    left: 35% ;
+    border: 10px solid white;
+
+}
+
+
+blockquote {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-top: 10%;
+    padding: 20px 20px 20px 40px;
+    border-left: none;
+    text-indent: -19px
+}
+
+
+blockquote p {
+    font-size: 1em
+}
+
+blockquote:before,
+blockquote:after {
+    font-family: Arial, serif;
+    font-size: 2.5em;
+    vertical-align: middle;
+    line-height: 0
+}
+
+blockquote:before {
+    content: open-quote;
+    margin-right: 4px
+}
+
+blockquote:after {
+    content: close-quote;
+    margin-left: 3px
+}
+
+blockquote.blockstyle,
+blockquote.style2 {
+    font-style: italic
+}
+blockquote.blockstyle:before,
+blockquote.blockstyle:after {
+    color: #f0715f
+}
